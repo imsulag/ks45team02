@@ -11,24 +11,24 @@ public class OutgoingController {
     @GetMapping("/addOutgoing")
     public String addOutgoing() {
 
-        return "incoming/addOutgoing";
+        return "outgoing/addOutgoing";
     }
 
     @GetMapping("/deleteOutgoing")
     public String deleteOutgoing() {
 
-        return "incoming/deleteOutgoing";
+        return "outgoing/deleteOutgoing";
     }
 
     @GetMapping("/listOutgoing")
     public String listOutgoing() {
 
-        return "incoming/listOutgoing";
+        return "outgoing/listOutgoing";
     }
 
     @GetMapping("/modifyOutgoing")
     public String modifyOutgoing() {
 
-        return "incoming/modifyOutgoing";
+        return "outgoing/modifyOutgoing";
     }
 }

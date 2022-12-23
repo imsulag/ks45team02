@@ -28,13 +28,6 @@ public class IncomingController {
         return "incoming/listIncoming";
     }
 
-
-    @GetMapping("/listStock")
-    public String listStock() {
-
-        return "incoming/listStock";
-    }
-
     @GetMapping("/modifyIncoming")
     public String modifyIncoming() {
 
